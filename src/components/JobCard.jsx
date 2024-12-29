@@ -13,6 +13,7 @@ import { saveJob } from "@/api/apiJobs";
 import useFetch from "@/hooks/use-fetch";
 import { useEffect, useState } from "react";
 import { BarLoader } from "react-spinners";
+import { deleteJob } from "@/api/apiJobs";
 
 const JobCard = ({
   job,
